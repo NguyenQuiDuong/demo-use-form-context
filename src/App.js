@@ -7,7 +7,6 @@ function App() {
   const methods = useForm({ mode: "onBlur" });
 
   const options = ["one", "two", "three"];
-  console.log(methods.watch().test);
 
   return (
     <FormProvider {...methods}>
